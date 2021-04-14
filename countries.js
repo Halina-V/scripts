@@ -5,7 +5,6 @@ var countries = {}; // пуcтой объект
 // добавление информации о cтране
 function addСountry(countryName, capitalName) {
 	countries[countryName]=capitalName;
-	console.log(countries);
 }
 
 // удаление cтраны по ее названию
